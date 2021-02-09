@@ -37,5 +37,5 @@ function addroom(){
       firebase.database().ref("/").child(room_name).update({
             use : "add room name"      });
             localStorage.setItem("room_name" , room_name);
-            window.location = "kwitter_page.html";
+            window.location = "Kwitter_page.html";
 }
